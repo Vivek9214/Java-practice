@@ -12,3 +12,15 @@ public class Myymath {
             }
         }
     }
+    public void mysqrt(double x) {
+        double a = 1;
+        while (a * a <= x) {
+
+            if (a * a == x) {
+                System.out.println("Square root of " + x + " is " + a);
+                break;
+            } else {
+                a++;
+            }
+        }
+    }
