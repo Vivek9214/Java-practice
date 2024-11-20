@@ -24,3 +24,11 @@ public class Myymath {
             }
         }
     }
+    public void myabs(double d) {
+        if (d >= 0) {
+            System.out.println("The ABS is "+ d);
+        } else {
+            d = d * -1;
+            System.out.println("The ABS is " + d);
+        }
+    }
