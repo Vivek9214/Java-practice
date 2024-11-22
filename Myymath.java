@@ -32,3 +32,14 @@ public class Myymath {
             System.out.println("The ABS is " + d);
         }
     }
+    public void myfact(int a){
+        int n=1;
+        if(a<0){
+            System.out.println("Invalid Number");
+            return;
+        }
+        for(int i = a; i>1; i--){
+            n*= i;
+        }
+        System.out.println("The factorial is "+ n);
+    }
