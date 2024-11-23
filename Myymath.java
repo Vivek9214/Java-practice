@@ -1,45 +1,15 @@
-import java.util.*;
-public class Myymath {
-         
-    public void mypow(double a, double b) {
+public class Myymath {     
+    public static void mypow(double a, double b) {
         double i, j = a;
         for (i = 1; i <= b; i++) {
+            if(a<0){
+                System.out.print("Error: Negative number"); break;
+            }
             if (i == b) {
-                System.out.println("The power of "+j+" is "+a);
+                System.out.print(a);
                 break;
             } else {
                 a = j * a;
             }
         }
-    }
-    public void mysqrt(double x) {
-        double a = 1;
-        while (a * a <= x) {
-
-            if (a * a == x) {
-                System.out.println("Square root of " + x + " is " + a);
-                break;
-            } else {
-                a++;
-            }
-        }
-    }
-    public void myabs(double d) {
-        if (d >= 0) {
-            System.out.println("The ABS is "+ d);
-        } else {
-            d = d * -1;
-            System.out.println("The ABS is " + d);
-        }
-    }
-    public void myfact(int a){
-        int n=1;
-        if(a<0){
-            System.out.println("Invalid Number");
-            return;
-        }
-        for(int i = a; i>1; i--){
-            n*= i;
-        }
-        System.out.println("The factorial is "+ n);
     }
