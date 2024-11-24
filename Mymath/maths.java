@@ -13,4 +13,19 @@ public class Myymath {
             }
         }
     }
-}
+
+public static void mysqrt(double x) {
+        //Please enter a valid number that have squre root
+        double a = 1;
+        if(x < 0){
+            System.out.print("Error: Not allowed find a negative value");
+        }
+        while (a * a <= x) {
+            if (a * a == x) {
+                System.out.print(a);
+                break;
+            } else {
+                a++;
+            }
+        }
+    }
