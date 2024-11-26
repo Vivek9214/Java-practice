@@ -29,3 +29,12 @@ public static void mysqrt(double x) {
             }
         }
     }
+public static void myabs(double d) {
+        if (d >= 0) {
+            System.out.print( d);
+        } else {
+            d = d * -1;
+            System.out.print( d);
+        }
+    }
+
