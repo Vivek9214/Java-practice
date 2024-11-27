@@ -37,4 +37,15 @@ public static void myabs(double d) {
             System.out.print( d);
         }
     }
+    public static void myfact(int a){
+        int n=1;
+        if(a<0){
+            System.out.print("Invalid Number");
+            return;
+        }
+        for(int i = a; i>1; i--){
+            n*= i;
+        }
+        System.out.print(n);
+    }
 
