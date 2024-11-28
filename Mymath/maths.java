@@ -48,4 +48,12 @@ public static void myabs(double d) {
         }
         System.out.print(n);
     }
+    public static void mymin(double x , double y){
+        if(x>y){
+            System.out.print(x);
+        }
+        else{
+            System.out.print(y);
+        }
+    }
 
