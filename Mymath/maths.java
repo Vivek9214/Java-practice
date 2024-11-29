@@ -56,4 +56,11 @@ public static void myabs(double d) {
             System.out.print(y);
         }
     }
-
+    public static void mymax(double x, double y){
+        if(x>y){
+            System.out.print(y);
+        }
+        else{
+            System.out.print(x);
+        }
+    }
