@@ -64,3 +64,13 @@ public static void myabs(double d) {
             System.out.print(x);
         }
     }
+    public static void mycbrt(double x){
+        double temp = x;
+        for(int i = 0; i< 2; i++){
+            if(x<0){
+                System.out.print("Error: Negative number cannot be cube root"); break;
+            }
+            temp = temp  * x;
+        }
+        System.out.print(temp);
+    }
