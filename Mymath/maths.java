@@ -74,3 +74,17 @@ public static void myabs(double d) {
         }
         System.out.print(temp);
     }
+    public static void mysignum(double x){
+        if(x>0){
+            System.out.print(1.0);
+        }
+        else if(x<0){
+            System.out.print(-1.0);
+        }
+        else if(x==0){
+            System.out.print(0.0);
+        }
+        else{
+            System.out.print("NaN");
+        }
+    }
