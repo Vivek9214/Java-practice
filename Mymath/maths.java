@@ -88,3 +88,14 @@ public static void myabs(double d) {
             System.out.print("NaN");
         }
     }
+    public static void myceil(double x){
+        int num = (int)x;
+        float num2 = (float)x - (float)num;
+
+        if(num2 > 0.00f && num2 < 0.50f){
+            System.out.print(num);
+        }
+        else{
+            System.out.print(num+1);
+        }
+    }
