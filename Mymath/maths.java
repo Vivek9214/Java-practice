@@ -14,7 +14,7 @@ public class Myymath {
         }
     }
 
-public static void mysqrt(double x) {
+    public static void mysqrt(double x) {
         //Please enter a valid number that have squre root
         double a = 1;
         if(x < 0){
@@ -29,7 +29,8 @@ public static void mysqrt(double x) {
             }
         }
     }
-public static void myabs(double d) {
+    
+    public static void myabs(double d) {
         if (d >= 0) {
             System.out.print( d);
         } else {
@@ -37,6 +38,7 @@ public static void myabs(double d) {
             System.out.print( d);
         }
     }
+    
     public static void myfact(int a){
         int n=1;
         if(a<0){
@@ -48,6 +50,7 @@ public static void myabs(double d) {
         }
         System.out.print(n);
     }
+    
     public static void mymin(double x , double y){
         if(x>y){
             System.out.print(x);
@@ -56,6 +59,7 @@ public static void myabs(double d) {
             System.out.print(y);
         }
     }
+    
     public static void mymax(double x, double y){
         if(x>y){
             System.out.print(y);
@@ -99,3 +103,21 @@ public static void myabs(double d) {
             System.out.print(num+1);
         }
     }
+    public static void mycopySing(double x, double y){
+
+        if(x < 0 && y < 0){
+            System.out.print(x);
+        }
+        else if(x > 0 && y < 0 ){
+            x = -x;
+            System.out.print(x);
+        }
+        else if(x < 0 && y > 0){
+            x = -1*x;
+            System.out.print(x);
+        }
+        else if(x > 0 && y > 0){
+            System.out.print(x);
+        }
+    }
+}
