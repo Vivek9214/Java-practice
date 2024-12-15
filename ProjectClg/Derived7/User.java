@@ -16,7 +16,7 @@ class Derived2 extends Base{
 }
 public class User {
     public static void main(String[] args) {
-        Base b1;  // Base class reference variable
+        Base b1 = new Base();  // Base class reference variable
         Derived d1 = new Derived();
         Derived2 d2 = new Derived2();
         b1 = d1;
