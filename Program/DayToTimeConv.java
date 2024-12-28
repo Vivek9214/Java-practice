@@ -1,4 +1,3 @@
-package ProjectClg.Day1;
 import java.util.*;
 // Write a program to convert a given number of days into years, weeks and days.
 public class Second{
