@@ -1,5 +1,5 @@
 // Create a program to find the greatest common divisor (GCD) of two number using loops.
-public class Eigth {
+public class GCD {
     public static void GCD(int a, int b) {
         int i = 2;
         while (a != 0 && b != 0) {
