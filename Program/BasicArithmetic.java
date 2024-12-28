@@ -1,5 +1,5 @@
 // Create a menu-driven program to perform basic arithmetic operations(+ , - , * , /)
-public class Fifth {
+public class BasicArithmetic {
     public static int add(int a, int b){
         return (a+b);
     }
