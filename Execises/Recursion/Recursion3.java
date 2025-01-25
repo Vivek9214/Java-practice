@@ -1,4 +1,3 @@
-package Project.Recurtion;
 //print n natural numbers
 public class Recurtion3 {
     public static void printNnum(int n, int x){
