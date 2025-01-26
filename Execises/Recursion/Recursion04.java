@@ -1,4 +1,3 @@
-package Project.Recurtion;
 //Print sum of First n Natural Numbers
 public class Recurtion4 {
 
