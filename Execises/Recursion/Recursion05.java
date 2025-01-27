@@ -1,4 +1,3 @@
-package Project.Recurtion;
 //print factorial Number till n th term
 public class Recurtion5 {
     public static int printfact(int n){
