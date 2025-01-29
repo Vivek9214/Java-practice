@@ -1,4 +1,3 @@
-package Project.Recurtion;
 // print x^n (stack height= n)
 public class Recurtion7 {
     public static int printpow(int x,int n){
