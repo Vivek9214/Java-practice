@@ -1,6 +1,6 @@
 package ProjectClg.Day1;
 // Implement a program to find the sum of digits of a number
-public class Seven {
+public class sumOfNum {
     public static void sumOfNum(String num){
         int sum= 0;
         for(int i = 0; i< num.length();  i++){
