@@ -1,5 +1,5 @@
 //Create a program to find the largest of three numbers using conditinal statement.
-public class Third {
+public class large_Of_Three{
     public static int largeOfthree(int a, int b, int c){
         int d=0;
         if(a > b && a > c){
