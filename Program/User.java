@@ -1,42 +1,40 @@
-package ProjectClg.Derived8;
+import java.util.*;
+class Derived extends Base {// use in User.java
+    private
+    int num2;
+    public 
+    void derivedRead(){
+    Scanner o2 = new Scanner(System.in);
+    System.out.print("Enter the Second Number: ");
+    num2 = o2.nextInt();
 
-class Shape {
-    public  void area(){
-        System.out.println("Base class area method is invoked");
+    }
+    void derivedShow(){
+        System.out.print(num2);
     }
 }
 
-class Rectangle extends Shape{
-    private  double length;
-    private  double breath;
-        Rectangle ( double x, double y){
-            length = x;
-            breath = y;
-            
-        }
-        public  void area(){
-            System.out.println("Area of Reactangle is " + (length * breath));
-    }
-}
+class Base{
+    private
+    int num1;
+    public
+    void baseRead(){
+        Scanner o1 =new Scanner(System.in);
+        System.out.print("Enter the first Number:");
+        num1 = o1.nextInt();
 
-class Circle extends Shape{
-    private  double radius;
-    Circle (double r){
-        radius = r;
     }
-    public  void area(){
-        System.out.println("Area of circle is "+ Math.PI*(radius * radius));
+    void baseShow(){
+        System.out.println(num1);
     }
 }
 
 public class User{
-    public static void main(String[] args) {
-        Shape s;
-        Rectangle r = new Rectangle(5.5 , 6.6);
-        s = r;
-        s.area();
-        Circle c = new Circle(7.7);
-        s = c;
-        s.area();
+    public static void main(String args[]){
+        Derived d = new Derived();
+        d.derivedRead();
+        d.baseRead();
+        d.derivedShow();
+        d.baseShow();
     }
 }
