@@ -1,67 +1,65 @@
-# 💻 Vivek Gahlot – Learning & Projects Repository
+# ☕ Java-Practice Repository
 
-Welcome to my personal repository, where I document my academic and self-taught journey in programming, data structures, and data analysis. With a non-technical background in commerce and a deep curiosity for technology, I am currently pursuing a **Bachelor of Computer Applications (BCA)** and building a strong foundation in software development and data science.
-
----
-
-## 📂 Repository Overview
-
-This repository serves as:
-
-- 📘 A **central knowledge base** for core programming concepts and structured notes  
-- ⚙️ A **practice space** for implementing Data Structures and Algorithms  
-- 📊 A **launchpad** for early Data Science projects using Python  
-- 🧪 A **reflection of progress** as I grow through formal education and self-paced learning
+Welcome to my **Java Practice Repository** – a structured collection of my programming journey in Core Java. This repository reflects consistent learning, focused problem-solving, and application of foundational programming concepts.
 
 ---
 
-## 🧠 Core Competencies
+## 📁 Repository Structure
 
-| Area                 | Focus Topics |
-|----------------------|--------------|
-| **Java**             | OOPs, Classes & Objects, File Handling, DSA |
-| **C++**              | Data Structures, Algorithms (Arrays, Linked Lists, Trees, Sorting, Graphs) |
-| **Python**           | Fundamentals, Functions, Loops, Data Analysis (Pandas, Matplotlib) |
-| **Mathematics & DBMS** | Notes, Queries, Practice Problems |
-| **Tools**            | Git, GitHub, VS Code, MySQL (basic), Jupyter Notebook |
-
----
-
-## 📌 Current Learning Focus
-
-- 🔄 Mastering **Data Structures & Algorithms** in C++
-- 🐍 Advancing **Python for Data Science** (NumPy, Pandas, Matplotlib)
-- ⚙️ Exploring **Backend Development** using Java & MySQL
-- 🧠 Building mathematical intuition through **Discrete Mathematics** and **Logic**
+| Folder       | Description |
+|--------------|-------------|
+| **Exercises** | Focused practice on core Java topics like Arrays, Lists, Loops, and Recursion |
+| **Mymath**    | Custom-built Java functions for common mathematical operations |
+| **Program**   | Solutions to coding problems from **LeetCode**, **HackerRank**, and **CodeWars** |
+| **Program2**  | College-level Java programs for strengthening conceptual understanding |
 
 ---
 
-## 🗂️ Contents
+## 🧠 Topics Covered
 
-- `/java-core-notes` → OOPs principles, inheritance, polymorphism, etc.  
-- `/dsa-cpp` → Arrays, Stacks, Queues, Trees, Graphs with explanations  
-- `/python-data-analysis` → Data exploration and mini-projects  
-- `/bca-subjects` → DBMS, Internet Programming, and Mathematics notes
-
----
-
-## 🔭 Upcoming Goals
-
-- 💼 Build real-world mini-projects (Expense Tracker, Student Management, etc.)
-- 📖 Contribute to open-source beginner-friendly projects
-- 🎓 Prepare for internships in Backend Development or Data Science
-- 🛠️ Develop a personal portfolio website
+- ✅ Control Structures: Loops, Conditional Statements
+- ✅ Data Structures: Arrays, ArrayLists
+- ✅ Recursion and Mathematical Logic
+- ✅ Problem Solving: Competitive Programming
+- ✅ Modular Java Programming
 
 ---
 
-## 📬 Contact & Connect
+## 🔗 Online Coding Profiles
 
-- 📧 Email: vivekgahlotdev@gmail.com  
-- 🧑‍💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)  
-- 🐙 GitHub: [github.com/your-username](https://github.com/your-username)
+- 🌐 **LeetCode:** [leetcode.com/u/Vivek_Gahlot](https://leetcode.com/u/Vivek_Gahlot/)
+- ⚔️ **CodeWars:** [codewars.com/users/Vivek9214](https://www.codewars.com/users/Vivek9214)
+- 🧠 **HackerRank:** [hackerrank.com/vivekgahlot92](https://www.hackerrank.com/vivekgahlot92)
 
 ---
 
-> _"The best way to predict the future is to create it." – Peter Drucker_  
->  
-> Thank you for visiting this repository. Your suggestions, feedback, or mentorship are always welcome.
+## 🎯 Goals of This Repository
+
+- 👨‍💻 Improve problem-solving skills through real coding platforms  
+- 📚 Consolidate college and self-taught programming concepts  
+- 🧩 Create a go-to resource for Java syntax, logic building, and algorithm practice  
+- 🌱 Track learning progress toward backend development and technical interviews
+
+---
+
+## 🛠 Future Enhancements
+
+- Add Javadoc comments for better understanding
+- Refactor code with meaningful class/method names
+- Organize platform-based solutions in subfolders (LeetCode, HackerRank, etc.)
+- Include README files within subfolders with explanations
+
+---
+
+## 🤝 Feedback & Collaboration
+
+This is a learning-focused repository. Suggestions, improvements, and discussions are always welcome. If you're a fellow beginner or enthusiast, feel free to connect!
+
+> _“Consistency builds clarity. Practice brings progress.”_
+
+---
+
+### 📬 Contact
+
+📧 Email: vivekgahlot92@gmail.com  
+🔗 GitHub: [github.com/Vivek9214](https://github.com/Vivek9214)  
