@@ -16,7 +16,7 @@ class Singleton{
         return "Hello I am a singleton! Let me say " + str + " to you";
     }
 }
-public class Singletons{
+public class Singletons{ 
     public static void main(String[] args){
         Singleton sin = Singleton.getInstance();
         System.out.println(sin.getSingleInstance());
